@@ -84,6 +84,7 @@ body {
 border-bottom: 1px solid #ECECEC;
 }
 
+
 /* logo */
 .fst-part-logo {
     color:#2196F3
@@ -94,7 +95,7 @@ border-bottom: 1px solid #ECECEC;
 }
 
 
-.nav a {
+.logo {
     text-decoration-line: none;
     font-family: Raleway;
     font-weight: 700;
@@ -102,6 +103,10 @@ border-bottom: 1px solid #ECECEC;
     line-height: 1.2;
 }
 
+.ftr a {
+    display: block;
+    /* margin-bottom: 20px; */
+}
 
 /* site navigation */
 
@@ -376,21 +381,24 @@ padding-bottom: 94px;
 
 /* FOOTER  */
 
-.logo-ftr {
-margin-bottom: 20px;
+.logo {
+margin-bottom: 27px;
 }
 
-.logo-ftr a {
+.ftr-cont a {
     display: block;
 }
 
+/* .address ul {
+    margin-top: 20px;
+} */
 
 .ftr {
     background-color:#2F303A; 
 }
 
 
-.footer {
+footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -416,7 +424,7 @@ margin-bottom: 20px;
 
 
 .address-ftr li {
-    margin-top: 9px;
+    /* margin-top: 9px; */
     margin-bottom: 9px;
 }
 
@@ -548,4 +556,8 @@ margin-right: 30px;
 
 .address-ftr a {
     text-decoration-line: none;
+}
+
+.address ul {
+    margin-top: 20px;
 }
