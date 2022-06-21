@@ -381,9 +381,9 @@ padding-bottom: 94px;
 
 /* FOOTER  */
 
-.logo {
+/* .logo {
 margin-bottom: 27px;
-}
+} */
 
 .ftr-cont a {
     display: block;
@@ -395,13 +395,15 @@ margin-bottom: 27px;
 
 .ftr {
     background-color:#2F303A; 
-}
-
-
-footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+
+/* footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+} */
 
 
 .sd-part-logo-ftr {
@@ -411,6 +413,7 @@ footer {
 
 .address {
     color: #FFFFFF;
+    margin-top: 27px;
 }
 
 .address {
